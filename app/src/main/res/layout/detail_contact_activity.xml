@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/layout_ripple"
+        android:backgroundTint="@color/clear2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Contact name:"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:shadowColor="#fff"
+                android:shadowDx="2.8"
+                android:shadowDy="2.8"
+                android:shadowRadius="3.0"
+                android:gravity="start"/>
+
+            <TextView
+                android:id="@+id/contact_name_output"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Contact phone:"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:shadowColor="#fff"
+                android:shadowDx="2.8"
+                android:shadowDy="2.8"
+                android:shadowRadius="3.0"
+                android:gravity="start"/>
+
+            <TextView
+                android:id="@+id/contact_phone_output"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:textColor="#00f"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Contact Email:"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:shadowColor="#fff"
+                android:shadowDx="2.8"
+                android:shadowDy="2.8"
+                android:shadowRadius="3.0"
+                android:gravity="start"/>
+
+            <TextView
+                android:id="@+id/contact_email_output"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:textColor="#00f"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Contact Address:"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:shadowColor="#fff"
+                android:shadowDx="2.8"
+                android:shadowDy="2.8"
+                android:shadowRadius="3.0"
+                android:gravity="start"/>
+
+            <TextView
+                android:id="@+id/contact_Address_output"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:textColor="#00f"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:text="Contact photo:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:shadowColor="#fff"
+                android:shadowDx="2.8"
+                android:shadowDy="2.8"
+                android:shadowRadius="3.0"/>
+
+            <ImageView
+
+                android:id="@+id/contact_photo_output"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingTop="10dp"
+                android:textSize="25sp" />
+
+            <Space
+                android:layout_width="350dp"
+                android:layout_height="25dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="2dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="@color/clear3"
+    app:cardElevation="6dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/contact_image"
+        android:padding="5dp"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp">
+
+        <TextView
+            android:id="@+id/contact_name"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:fontFamily="casual" />
+
+        <TextView
+            android:id="@+id/contact_phone"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:fontFamily="casual"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
